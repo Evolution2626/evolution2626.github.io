@@ -42,11 +42,6 @@ enmore: More
 enoutreach: Outreach
 encontact: Contact
 
-#footer
-enlovesponsors: We love our sponsors!
-enbasedoff: Based off of
-enviewgithub: View site source on GitHub
-
 # Build settings
 sass:
     style: compressed
