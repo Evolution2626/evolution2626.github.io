@@ -40,4 +40,15 @@ if (location.protocol === 'http:' || location.protocol === 'https:') {
 	
   ga('create', 'UA-63194329-3', 'auto');
   ga('send', 'pageview');
+	
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//technonerdz.ca/t/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
 }
